@@ -1,1 +1,4 @@
+J1 pirmais, es atvērt žurnālfailu otrais es parbaudu šos failus 
+
+J2 Powershell atbildēs daudz strukturēzāk nekā bash un powershell pats par sevi ir vairāk balstīts uz windows. Powershell būs pats par sevi stiprāks nekā bash, jo bash nodrošina tekstu bet powershell uz objektiem, ja fails būtu mazs ar bashu būtu pietiekami bet ar lielākiem ar viņu vien nepietiek, jo viņš darbojas texta daļā kamer poweshell uz pārējo.
 
