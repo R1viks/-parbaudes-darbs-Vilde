@@ -20,8 +20,13 @@ with open("C:\\Users\\A250644RV\\Downloads\\PU_PD1-v2-main\\PU_PD1-v2-main\\sist
                 skaits[serviss] = skaits[serviss] + 1
             else:
                 skaits[serviss] = 1
-            Export-csv = "servisi.csv"
-                
+            with open("C:\\Users\\A250644RV\\Downloads\\PU_PD1-v2-main\\PU_PD1-v2-main\\servisi.csv",  mode="r", newline='') as f:
+                writer = csv.writer(serviss.csv,  delimiter= ";")
+                writer.writerow(["serviss","kludas"])
+                for serviss, kļudas in skaits.items():
+                   writer.writerow(["serviss","kļudas"])
+        print(skaits)
+
 
             
 

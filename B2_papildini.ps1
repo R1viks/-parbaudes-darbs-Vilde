@@ -10,6 +10,6 @@
 $diski = Get-PSDrive -PSProvider FileSystem |
     Select-Object Name, Used, Free
 
-    export-csv -Path "diski.csv" -NoTypeInformation -InputObject $diski
+    export-csv -Path "C:\Users\A250644RV\Downloads\diski.csv" -NoTypeInformation -InputObject $diski
 
 # TODO: saglabā $diski failā diski.csv
